@@ -6,3 +6,6 @@
 
 ;; print to the console
 (println "Hello, World!")
+
+;; Hello from the JS console
+(.log js/console "Hello, world!")
