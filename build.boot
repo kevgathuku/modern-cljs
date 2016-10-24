@@ -4,7 +4,7 @@
 
  :dependencies '[[org.clojure/clojure "1.7.0"]
                 [org.clojure/clojurescript "1.7.170"]
-                [adzerk/boot-cljs "1.7.170-3"]
+                [adzerk/boot-cljs "1.7.228-2"]
                 [pandeiro/boot-http "0.7.3"]
                 [adzerk/boot-reload "0.4.13"]
                 [adzerk/boot-cljs-repl "0.3.3"]
