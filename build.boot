@@ -19,3 +19,15 @@
 
 
 (deftask deps [] ())
+
+;; define dev task as composition of subtasks
+(deftask dev
+  "Launch Immediate Feedback Development Environment"
+  []
+  (comp
+  (serve :dir "target" :port 8080)
+  (watch)
+  (reload)
+  (cljs-repl) ;; before cljs task
+  (cljs)
+  (target :dir #{"target"})))
