@@ -1,4 +1,4 @@
-(ns modern-cljs.core 
+(ns modern-cljs.core
   (:require [compojure.core :refer [defroutes GET POST]]
             [compojure.route :refer [not-found files resources]]
             [compojure.handler :refer [site]]
